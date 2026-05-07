@@ -87,10 +87,7 @@
       </video>
 
       <!-- 🔁 MISMA FRASE EN LAS 3 ZONAS -->
-      <div class="contador contador1">
-        <div class="texto" id="frase1"></div>
-      </div>
-
+     
       <div class="contador contador2">
         <div class="texto" id="frase2"></div>
       </div>
@@ -131,7 +128,6 @@
           const randomIndex = Math.floor(Math.random() * frases.length);
           const frase = frases[randomIndex];
 
-          document.getElementById("frase1").textContent = frase;
           document.getElementById("frase2").textContent = frase;
           document.getElementById("frase3").textContent = frase;
         }
